@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Tracker</title>
+</head>
+<body>
+
+  <h1>Task Tracker Kuliah</h1>
+
+  <form id="form">
+    <input id="judul" type="text" placeholder="Judul tugas">
+
+    <select id="matkul">
+      <option>Pemrograman Web</option>
+      <option>Basis Data</option>
+      <option>Jaringan Komputer</option>
+    </select>
+
+    <input id="deadline" type="date">
+
+    <button type="submit">Tambah</button>
+  </form>
+
+  <p id="error"></p>
+
+  <button id="semua">Semua</button>
+  <button id="aktif">Aktif</button>
+  <button id="selesai">Selesai</button>
+
+  <p id="counter"></p>
+
+  <ul id="daftar"></ul>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
